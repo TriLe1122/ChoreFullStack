@@ -1,14 +1,17 @@
-
 {
   "folders": [
     {
-      "path": "ChoreFullStack.client",
-      "name": "client"
+      "name": "client",
+      "path": "ChoreFullStack.client"
     },
     {
-      "path": "ChoreFullStack",
-      "name": "server"
-    },{"path":".github/workflows", "name":"workflows"}
+      "name": "server",
+      "path": "ChoreFullStack"
+    },
+    {
+      "name": "workflows",
+      "path": ".github/workflows"
+    }
   ],
   "settings": {
     "editor.suggestSelection": "first",
@@ -35,6 +38,26 @@
     "eslint.codeActionsOnSave.mode": "all",
     "editor.codeActionsOnSave": {
       "source.fixAll": true
-    }
+    },
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#79d977",
+      "activityBar.background": "#79d977",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#6a6cd5",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "commandCenter.border": "#15202b99",
+      "sash.hoverBorder": "#79d977",
+      "statusBar.background": "#52ce4f",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#36b733",
+      "statusBarItem.remoteBackground": "#52ce4f",
+      "statusBarItem.remoteForeground": "#15202b",
+      "titleBar.activeBackground": "#52ce4f",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#52ce4f99",
+      "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#52ce4f"
   }
 }
